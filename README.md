@@ -1,0 +1,2 @@
+# First_repository
+来存放学习C语言和Python语言的简单代码
