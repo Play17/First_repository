@@ -1,0 +1,19 @@
+#需要下载pyautogui库
+import pyautogui as pg   
+import time
+
+#模拟键盘按下win+r
+pg.hotkey('win','r')
+#等待1秒
+time.sleep(1)
+#输入cmd
+pg.write('cmd')
+#按下回车
+pg.press('enter')
+#等待1秒
+time.sleep(1)
+#输入连接百度网址的代码
+pg.write('ping www.baidu.com',interval=0.1)
+#按下回车
+pg.press('enter')
+
