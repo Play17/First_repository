@@ -1,4 +1,4 @@
-#需要下载pyautogui库
+#需下载pyautogui库
 import pyautogui as pg   
 import time
 
@@ -16,4 +16,3 @@ time.sleep(1)
 pg.write('ping www.baidu.com',interval=0.1)
 #按下回车
 pg.press('enter')
-
