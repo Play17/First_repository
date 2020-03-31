@@ -2,6 +2,10 @@ import time
 import pygame
 import os
 
+"""
+    简陋的dos窗口的音乐播放器
+"""
+
 filePath="D:\PG1"
 list = os.listdir(filePath)
 print('\n')
